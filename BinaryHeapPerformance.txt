@@ -213,3 +213,35 @@ if __name__ == "__main__":
 18.38951301574707 137.5108187198639
 8.161421775817871 10.445523977279663
 '''
+
+
+Python 3.6.1 (default, Dec 2015, 13:05:11)
+[GCC 4.8.2] on linux
+   
+         6145661 function calls in 17.706 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   17.706   17.706 <string>:1(<module>)
+   100000    0.547    0.000    3.125    0.000 python:109(insert)
+        1    0.526    0.526   17.706   17.706 python:125(testme)
+   100000    0.618    0.000    0.653    0.000 python:13(_push)
+        1    0.000    0.000    0.000    0.000 python:2(__init__)
+   100000    0.136    0.000    0.136    0.000 python:22(_pop)
+    99999    0.492    0.000   12.075    0.000 python:29(_replaceFirstByLast)
+    99999    6.946    0.000   11.397    0.000 python:34(_adjustFromLow)
+  1528164    4.234    0.000    4.234    0.000 python:6(_swap)
+   100000    1.214    0.000    1.926    0.000 python:83(_adjustFromHigh)
+   100000    0.384    0.000   12.609    0.000 python:99(extractMin)
+   100000    0.604    0.000    1.156    0.000 random.py:172(randrange)
+   100000    0.290    0.000    1.447    0.000 random.py:216(randint)
+   100000    0.492    0.000    0.553    0.000 random.py:222(_randbelow)
+        1    0.000    0.000   17.706   17.706 {built-in method builtins.exec}
+  3215138    0.960    0.000    0.960    0.000 {built-in method builtins.len}
+   100000    0.017    0.000    0.017    0.000 {method 'append' of 'list' objects}
+   100000    0.017    0.000    0.017    0.000 {method 'bit_length' of 'int' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+   102356    0.044    0.000    0.044    0.000 {method 'getrandbits' of '_random.Random' objects}
+   100000    0.186    0.000    0.186    0.000 {method 'pop' of 'list' objects}
+
